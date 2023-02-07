@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.greg.lab8.MainController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #AAC4E6; -fx-border-color: silver; -fx-border-radius: 3px;">
+         <children>
+            <Button fx:id="addButton" layoutX="11.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #4672AD; -fx-border-radius: 3px;" text="Add" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="Segoe UI Light" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="removeButton" layoutX="11.0" layoutY="60.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #4672AD; -fx-border-radius: 3px;" text="Remove" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="Segoe UI Light" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="clearButton" layoutX="11.0" layoutY="107.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #4672AD; -fx-border-radius: 3px;" text="Clear" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="Segoe UI Light" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="updateButton" layoutX="10.0" layoutY="153.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #4672AD; -fx-border-radius: 3px;" text="Update" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="Segoe UI Light" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="vizualizationButton" layoutX="11.0" layoutY="546.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #4672AD; -fx-border-radius: 3px;" text="Vizualization" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="Segoe UI Light" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="localizationButton" layoutX="11.0" layoutY="497.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #4672AD; -fx-border-radius: 3px;" text="Localization" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="Segoe UI Light" size="16.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <AnchorPane layoutX="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <TableView fx:id="organisationsTableView" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: transparent;" >
+               <columns>
+                  <TableColumn fx:id="id" prefWidth="32.0" text="ID" />
+                  <TableColumn fx:id="name" prefWidth="86.40000915527344" text="NAME" />
+                  <TableColumn prefWidth="36.0" text="X" fx:id="x" />
+                  <TableColumn fx:id="y" prefWidth="35.99993896484375" text="Y" />
+                  <TableColumn fx:id="date" prefWidth="89.60003662109375" text="DATE" />
+                  <TableColumn fx:id="turnover" prefWidth="76.0" text="TURNOVER" />
+                  <TableColumn fx:id="employees" prefWidth="79.2000732421875" text="EMPLOYEES" />
+                  <TableColumn fx:id="type" prefWidth="74.4000244140625" text="TYPE" />
+                  <TableColumn fx:id="street" prefWidth="96.7999267578125" text="STREET" />
+                  <TableColumn fx:id="town_x" prefWidth="55.20013427734375" text="TOWN X" />
+                  <TableColumn fx:id="town_y" prefWidth="63.2000732421875" text="TOWN Y" />
+                  <TableColumn fx:id="town_z" prefWidth="68.0001220703125" text="TOWN Z" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,70 @@
+
+addWindow = Окно добавления
+removeWindow = Окно удаления
+updateWindow = Окно обновления
+visualizeWindow = Визуализация данных
+localizeWindow = Локализация
+mainWindow = Главное окно
+charts = Выручка/Количество работников
+addButton = Добавить элемент
+clearButton = Очистить коллекцию
+removeButton = Удалить элемент
+updateButton=Обновить элемент
+visualizeButton=Визуализировать
+localizeButton=Локализовать
+authWindow = Авторизация
+authErrorTitle = Ошибка авторизации
+authErrorMessage = Не удалось авторизоваться
+authLabel = Авторизация
+usernameLabel = Имя пользователя
+passwordLabel = Пароль
+loginButton = Войти
+registerButton = Зарегистрироваться
+nameLabel = Название организации
+xLabel = X коррдината
+yLabel = Y координата
+turnLabel = Выручка
+emplLabel = Количество работников
+
+
+
+addWindow = AddWindow
+removeWindow = RemoveWindow
+updateWindow = updateWindow
+visualizeWindow = Οπτικοποίηση δεδομένων
+localizeWindow = LocalizeWindow
+mainWindow = MainWindow
+charts = Έσοδα/Αριθμός εργαζομένων
+addButton = Προσθήκη στοιχείου
+clearButton = Εκκαθάριση συλλογής
+removeButton = Αφαίρεση στοιχείου
+updateButton = Ανανέωση στοιχείου
+visualizeButton=VisualizeButton
+localizeButton=LocalizeButton
+authWindow = Εξουσιοδότηση
+authErrorTitle=Σφάλμα σύνδεσης
+authErrorMessage = Αποτυχία εξουσιοδότησης
+authLabel = Έλεγχος ταυτότητας
+usernameLabel = Όνομα χρήστη
+passwordLabel = Κωδικός πρόσβασης
+loginButton = Σύνδεση
+registerButton = RegisterButton
+nameLabel = Όνομα εταιρείας
+xLabel = Συντεταγμένη Χ
+yLabel = Συντεταγμένη Υ
+turnLabel = Έσοδα
+emplLabel = Αριθμός εργαζομένων
+typeLabel = Τύπος οργανισμού
+streetLabel = Οδός
+townLabel = Πόλη (X,Y,Z)
+removeByIdButton = Διαγραφή με αναγνωριστικό
+removeLowerButton = Αφαιρέστε τα μικρότερα
+removeHeadButton = Αφαίρεση κορυφής
+addLabel = AddLabel
+removeLabel = Διαγραφή
+updateLabel = Ανανέωση
+localizationButton = Εντοπισμός
+localLabel = Εντοπισμός
+chooseLangLabel = Επιλέξτε γλώσσα
+
+
